@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap'); /*fazer funcionar*/
+
+body,html{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    background-color: #A13246;
+    height: 150px;
+}
+
+header > h1{
+    display: block;
+    text-align: center;
+    padding-top:55px;
+    font-size: 3em;
+    
+}
+
+section{
+    display: block;
+    position: absolute;
+    
+}
+
+main > section > p{
+    display: block;
+    background-color: white;
+    margin-top: 20px 20px;
+    padding: 10px;
+    text-indent: 25px;
+    max-width:1000px ;
+    text-align: justify;
+
+}
